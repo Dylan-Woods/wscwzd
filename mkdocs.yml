@@ -35,3 +35,4 @@ theme:
    - announce.dismiss
    - navigation.expand
    - navigation.tabs
+   - content.code.copy
