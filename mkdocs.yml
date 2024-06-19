@@ -1,0 +1,37 @@
+site_name: 改成你想要的网站名字
+# site_url: https://wzdworld.github.io/mkdocshelper
+site_author: wsc
+site_description: 这是网站介绍
+
+extra:
+  social: []
+extra_javascript:
+#  - javascripts/katex.js
+ - https://unpkg.com/katex@0/dist/katex.min.js
+ - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+extra_css:
+ - https://unpkg.com/katex@0/dist/katex.min.css
+theme:
+  # favicon: assets/images/favicon.png
+  # logo: assets/logo.png
+  name: material
+  palette:
+   -
+    scheme: default
+    primary: teal
+    accent: green
+    toggle:
+      icon: material/weather-night
+      name: 切换至夜间模式
+   -
+    scheme: slate
+    primary: teal
+    accent: green
+    toggle:
+      icon: material/weather-sunny
+      name: 切换至日间模式
+  features:
+   - navigation.top
+   - announce.dismiss
+   - navigation.expand
+   - navigation.tabs
